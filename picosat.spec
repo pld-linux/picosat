@@ -55,7 +55,7 @@ Headers and other development files for PicoSAT.
 
 %prep
 %setup -q
-%patch0
+%patch -P0
 
 %build
 # The configure script is NOT autoconf-generated and chooses its own CFLAGS,
